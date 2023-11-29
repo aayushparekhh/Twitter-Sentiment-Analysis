@@ -1,0 +1,25 @@
+HDFS Commands:
+
+hadoop fs -ls: List files and directories in HDFS.
+hadoop fs -mkdir: Create a directory in HDFS.
+hadoop fs -put: Put files from the local file system into HDFS.
+hadoop fs -get: Copy files from HDFS to the local file system.
+hadoop fs -rm: Remove files or directories from HDFS.
+hadoop fs -cat: Display contents of files in HDFS.
+hadoop fs -chmod: Change permissions of files or directories in HDFS.
+MapReduce Commands:
+
+hadoop jar: Execute a MapReduce job.
+hadoop jar <jar_file> <main_class> <input_path> <output_path>: Submit a MapReduce job to the cluster.
+hadoop job -list: List all the MapReduce jobs that are currently running.
+hadoop job -kill <job_id>: Terminate a running MapReduce job.
+Apache Hive Commands:
+
+hive: Launch the Hive shell.
+CREATE TABLE: Create a table in Hive.
+LOAD DATA INPATH: Load data into a Hive table.
+INSERT INTO TABLE: Insert data into a Hive table.
+SELECT: Retrieve data from a Hive table.
+DROP TABLE: Delete a Hive table.
+SHOW TABLES: Display the list of tables in the current database.
+DESCRIBE: View the schema of a table.
